@@ -1,0 +1,19 @@
+
+agent:
+  algorithm: PPO
+  
+  network:
+    hidden_dim: 256
+    n_layers: 3
+    activation: relu
+    use_attention: true
+  
+  hyperparameters:
+    learning_rate_policy: 3e-4
+    learning_rate_value: 1e-3
+    gamma: 0.99
+    gae_lambda: 0.95
+    clip_epsilon: 0.2
+    ppo_epochs: 10
+    batch_size: 64
+    max_grad_norm: 0.5

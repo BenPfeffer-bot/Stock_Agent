@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and databases
+*.log
+logs/
+*.db
+*.sqlite
+*.sqlite3
+stock_data.db
+data_cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Outputs
+outputs/
+models/
+checkpoints/
+results/
+figures/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Data files (keep schema, ignore data)
+data/*.db
+data/*.sqlite
+data/raw/
+data/processed/
+data_cache/
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# Tensorboard
+runs/
+events.out.tfevents.*
+
+# Documentation builds (keep source)
+docs/_build/
+docs/.doctrees/
+
+# Temporary test files
+quick_db_test.py
+test_*.py
+*_test.py

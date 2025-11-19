@@ -1,0 +1,25 @@
+
+data:
+  provider: yfinance
+  markets:
+    - US
+    - EU
+  universe:
+    US:
+      index: "SP100"  # Start with S&P 100
+      min_market_cap: 10e9
+      min_avg_volume: 1e6
+    EU:
+      index: "STOXX50"
+      min_market_cap: 5e9
+      min_avg_volume: 500e3
+  
+  date_range:
+    train_start: "2018-01-01"
+    train_end: "2023-12-31"
+    test_start: "2024-01-01"
+    test_end: "2024-12-31"
+  
+  quality_thresholds:
+    min_quality_score: 0.7
+
