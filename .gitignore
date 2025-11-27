@@ -92,3 +92,5 @@ docs/.doctrees/
 quick_db_test.py
 test_*.py
 *_test.py
+
+docs/
